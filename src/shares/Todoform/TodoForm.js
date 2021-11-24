@@ -1,5 +1,5 @@
-import store from "../../../services/store/store";
-import { addTodo } from "../../../services/action/addTodo/AddTodo";
+import store from "../../services/store/store";
+import { addTodo } from "../../services/action/addTodo/AddTodo";
 
 const TodoForm = () =>{
 
@@ -18,7 +18,7 @@ const TodoForm = () =>{
     return(
         <div>
             <h2>Introduce tu tarea</h2>
-            <form onSubmit={(event)=>handleClick(event)} onReset>
+            <form onSubmit={(event)=>handleClick(event)} >
                 <input 
                 type="text" 
                 name="tarea"

@@ -1,4 +1,4 @@
-import TodoForm from "../../shares/share/Todoform/TodoForm";
+import TodoForm from "../../shares/Todoform/TodoForm";
 import { useState, useEffect } from "react"
 import store from "../../services/store/store";
 
